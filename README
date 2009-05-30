@@ -1,0 +1,10 @@
+What's this?
+
+Well ruby has facets, I couldn't find anything like that for python. What that
+is, is a collection of small useful little tools programmers will need to use
+over and over again, so why are we all writing our own? We can re-use
+each-others work and concentrate on the higher level end result with the
+obvious gains to productivity. Let's do it, add your little bits and pieces,
+let's make this like the standard library, but a bit less standard ;)
+
+This project is licenced under the GPLv3. See the file COPYING for details.
