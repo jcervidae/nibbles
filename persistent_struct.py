@@ -3,7 +3,7 @@
 #
 # Author: Jonathan Cervidae <jonathan.cervidae@gmail.com>
 # PGP Fingerprint: 2DC0 0A44 123E 6CC2 EB55  EAFB B780 421F BF4C 4CB4
-# Last changed: $LastEdit: 2009-05-28 13:38:06 BST$
+# Last changed: $LastEdit: 2009-05-28 13:57:10 BST$
 
 import os
 import pickle
@@ -11,7 +11,7 @@ import pickle
 class PersistentStruct(object):
 
     def __init__( self, pickle_file):
-        self.__dict__['_pickle_file'] = pickle_file
+        self.__dict__['_pickle_file'] = os.path.expanduser(pickle_file)
         self._load()
 
     def __getitem__(self, name):
